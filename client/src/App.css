@@ -1,0 +1,129 @@
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #b41e32;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+input select textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.myStyle {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin: 0.5rem auto;
+  background-color: #fcd603;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 1rem auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.form-group {
+  margin: 1rem 0;
+  color: #000000;
+}
+
+.search {
+  background-image: url("./background2.jpg");
+  background-size: auto;
+  border: 4px #000 solid;
+  margin-top: 1rem;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #fcd603;
+  color: rgb(0, 0, 0);
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+.container2 {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+}
+h1.gamertag {
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  border: #fff 2px solid;
+  padding: 0.5rem 0.8rem;
+}
+a:hover {
+  border: #ccc 2px solid;
+  color: #ccc;
+}
+.platform-avatar {
+  width: 40px;
+  margin-right: 0.7rem;
+}
+img {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+li {
+  background: rgb(54, 0, 0);
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+li p {
+  font-size: 2rem;
+}
+li:first-child p {
+  font-size: 1.5rem;
+}
+li span {
+  font-size: 1rem;
+  color: #ccc;
+}*/
