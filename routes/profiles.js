@@ -1,6 +1,6 @@
 const express = require("express");
-const router = express.Router();
 const fetch = require("node-fetch");
+const router = express.Router();
 
 router.get("/:platform/:gamertag", async function(req, res) {
   try {
@@ -12,7 +12,6 @@ router.get("/:platform/:gamertag", async function(req, res) {
     );
 
     const data = await response.json();
-
     if (data.errors) {
       return res.status(404).json({ message: "Player does not exist" });
     }
@@ -20,7 +19,7 @@ router.get("/:platform/:gamertag", async function(req, res) {
     res.json(data);
   } catch (err) {
     console.log(err);
-    res.status(500).json("server Error"); //not sure why we need it (to handle somekind of error)
+    res.status(500).json("server Error");
   }
 });
 

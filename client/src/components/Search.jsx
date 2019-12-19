@@ -18,13 +18,13 @@ class Search extends Component {
 
   render() {
     return (
-      <div class="row mt-5">
-        <div class="col-md-9 m-auto">
+      <div className="row mt-5">
+        <div className="col-md-9 m-auto">
           <form
-            class="card card-body text-white bg-primary mb-3"
+            className="card card-body text-white bg-primary mb-3"
             onSubmit={this.handleSubmit}
           >
-            <h1 class="card-title">Track Player Stats</h1>
+            <h1 className="card-title">Track Player Stats</h1>
 
             <div className="form-group">
               <label htmlFor="platform">Platform</label>
